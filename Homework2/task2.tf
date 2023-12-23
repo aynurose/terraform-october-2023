@@ -1,5 +1,5 @@
 resource "aws_security_group" "my-sg" {
-    id = "sg-084465f9cd9d0a09b"
+    name = "my-sg"
 }
 # terraform import aws_security_group.my-sg sg-084465f9cd9d0a09b
 
